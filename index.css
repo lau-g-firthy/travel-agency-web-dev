@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 1px;
+    margin: 1px;
+    background-color:ghostwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+#container{
+    position: relative;
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+.heading{
+    display: flex;
+    justify-content:space-arounds;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar{
+    font-size: medium;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.navbar a:hover{
+    text-decoration: wavy;
+    color:rgb(238, 133, 68);
+}
+
+a{
+    color:rgb(23, 82, 192);
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.index_photo_one{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content:center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color:rgb(238, 133, 68);
+    
+}
+
+.intro_text{
+    display: flex;
+    justify-content:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+p{
+    color:rgb(49, 48, 48);
+    justify-content: space-around;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:rgb(23, 82, 192);
+
+}
+
+#review_one{
+    display: flex;
+    justify-content: left;
+    font-weight: thin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#review_two{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#review_three{
+    display: flex;
+    justify-content: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.location{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Footer height and format */
+#footer {
+    position: relative;
+    height: 75px;
+    margin-top: -50px;
+    clear: both;
+}
+
+.f_navbar{
+    font-size: medium;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;         /* Footer Navbar */
+}
+
+.f_navbar a:hover{
+        text-decoration: wavy;
+        color:rgb(238, 133, 68);               /* Footer Decoration */
+}
